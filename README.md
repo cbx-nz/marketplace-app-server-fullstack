@@ -59,5 +59,25 @@ The server currently accepts these access codes:
 
 ## Notes
 
-- Product and purchase data are stored in JSON files under `/server` when available.
+- `products.json` should be created and maintained under `/server`.
+- Example `products.json`:
+
+```json
+[
+  {
+    "id": 1,
+    "category": "Computers",
+    "title": "Laptop Computer - $899.99",
+    "description": "A general-purpose laptop computer.",
+    "price": 899.99,
+    "stock": 9,
+    "image": "http://localhost:4050/images/laptop.jpg",
+    "likes": 1,
+    "dislikes": 0
+  }
+]
+```
+
+- `purchases.json` is created/updated automatically by the server when purchases are logged.
+- Product images should be stored in `/server/images`.
 - This project is intended as a learning/demo environment and not production hardened.
