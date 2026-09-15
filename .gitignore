@@ -1,0 +1,16 @@
+/node_modules
+/server/products.json
+/server/purchases.json
+/server/images/
+/app/bin/
+/app/.vs
+/app/obj
+/app/packages/
+*.nuget.targets
+*.nuget.props
+*.user
+*.userosscache
+*.suo
+app/TestResults/
+*.vshost.exe*
+*.log
